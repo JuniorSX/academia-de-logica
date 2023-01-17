@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+}
+div.main{
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+}
+div.topo{
+    margin: 0 auto;
+    background: #ddd;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.topo h1{
+    margin:0;
+    font-size: 30px;
+    color: rgb(0, 71, 16);
+}
+div.conteudo{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.bloco1{
+    float: left;
+    width: 400px;
+    height: 220px;
+    background: #ccc;
+}
+div.bloco2{
+    float: left;
+    width: 400px;
+    height: 220px;
+    background: #c2c2c2;
+}
+div.imagens{
+    display: flex;
+    margin: 20px auto;
+    width: 960px;
+    justify-content: space-around;
+}
+div.imagens img{
+    float:left;
+}
+div.footer{
+    background: #eee;
+    margin-top: 20px;
+    padding: 20px;
+}
+div.footer-logo{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+div.contato{
+    margin: 10px 0;
+}
+div.contato a{
+    font-size: 18px;
+    color: rgb(39, 214, 4);
+    text-decoration: none;
+}
+div.copy{
+
+}
